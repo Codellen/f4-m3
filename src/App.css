@@ -1,0 +1,62 @@
+body{
+  background-color: #000000;
+  color:white
+}
+*{
+  margin: 0;
+ box-sizing: border-box;
+ padding: 0;
+}
+
+.container{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  padding: 1rem;
+  border-bottom: 1px solid white;
+}
+.child{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap:2rem;
+  margin-right: 1rem;
+}
+.Form{
+  display: flex;
+  margin:8rem;
+ margin-left: 13rem;
+ flex-direction: column;
+ 
+}
+input{
+  background-color: #000000;
+  color: white;
+  outline: none;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  padding: 8px;
+  
+  margin-bottom: 15px;
+  font-size: 14px;
+  width: 50rem;
+}
+button{
+  width:10rem;
+  height: 2.5rem;
+  margin-top: 2.5rem;
+  font-size: 15px;
+  
+}
+
+.Profile{
+  display: flex;
+  margin:8rem;
+ margin-left: 13rem;
+ flex-direction: column;
+}
+.space{
+  margin-bottom: 1rem;
+}
